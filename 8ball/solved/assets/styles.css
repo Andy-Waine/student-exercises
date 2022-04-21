@@ -11,6 +11,11 @@
     align-items: center;
 }
 
+h1 {
+    font-weight: 800;
+    font-size: 5rem;
+}
+
 .input-box {
     height: 80px;
     width: 300px;
@@ -54,5 +59,16 @@ button:hover {
     font-size: 30px;
     max-width: 380px;
     overflow-wrap: break-word;
+}
+
+footer {
+    position: absolute;
+    bottom: 5%;
+    justify-content: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
 }
 
